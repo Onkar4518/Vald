@@ -1,0 +1,12 @@
+.container{
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
+
+.form-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}

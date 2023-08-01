@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container" style="border: 1px solid; padding: 20px; background-color: rgb(237, 237, 237);">
+        <h1>Registration Form</h1>
+        <br>
+        <form onsubmit="return validate()">
+            <div class="form-row"> 
+                <label for="name">Name :</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <span id="Fname" style="color: red;"></span>
+            <br>
+            <div class="form-row">
+                <label for="email">Email :</label>
+                <input type="email" name="email" id="email">
+            </div>
+            <span id="Email" style="color: red;"></span>
+            <br>
+            <div class="form-row">
+                <label for="mobile">Mobile number:</label>
+                <input type="tel" name="mobile" id="mobile" >
+            </div>
+            <span id="Number" style="color: red;"></span>
+            <br>
+            <div class="form-row">
+                <label for="password">Password :</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div class="form-row">
+                <input type="submit" value="register">
+                <input type="reset" value="reset">
+            </div>
+        </form>
+    </div>
+
+   
+</body>
+</html>
